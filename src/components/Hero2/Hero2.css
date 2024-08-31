@@ -1,0 +1,68 @@
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 20px #ea4c89, inset 0 0 8px #ea4c89;
+    }
+
+    50% {
+        box-shadow: 0 0 10px #ea4c89, inset 0 0 14px #ea4c89;
+    }
+
+    100% {
+        box-shadow: 0 0 20px #ea4c89, inset 0 0 8px #ea4c89;
+    }
+}
+
+.card11{
+    background: linear-gradient(to right, #1d123a 0%, #FFA37B 100%);
+}
+.card12{
+    background: linear-gradient(to right, #3006a4 0%, #FFA37B 100%);
+}
+.card21{
+    background: linear-gradient(to right, #7a259e 0%, #836dd6 100%);
+}
+.card22{
+    background: linear-gradient(to right, #7a259e 0%, #FFA37B 100%);
+}
+
+.Hero2_main{
+    padding: 2rem;
+}
+.Hero2_cards{
+    padding: 0 2rem;
+}
+.Hero2_txt h1{
+    z-index: 2;
+    position: relative;
+}
+.card{
+    padding:2rem;
+    border-radius:30px;
+    margin: 0.5rem 0.6rem;
+}
+.Hero2_txt button{
+    margin: 1.4rem 0 0 0;
+    text-align: left;
+    padding: 1rem 2rem;
+    border: 1px white solid;
+    font-size: 1.2rem;
+    color: #f59f82;
+    border-radius: 30px;
+}
+.Hero2_txt button:hover{
+
+    background: linear-gradient(to right, #3006A4 0%, #FFA37BB0 100%);
+    transition-duration: 2s;
+}
+.inner2 {
+    background-color: #ea4c89;
+    position:absolute;
+    width: 15rem;
+    right: 20%;
+    z-index: 0;
+    height: 15rem;
+    border-radius: 50%;
+    filter: blur(100px);
+    box-shadow: 0 0 8px #ea4c89, inset 0 0 8px #ea4c89;
+    animation: pulse2 2s linear 1s infinite;
+}
